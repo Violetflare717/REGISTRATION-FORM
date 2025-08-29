@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form Registry</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+
+<div class="form-container">
+
+    <div class="logo-container"> 
+        <img src="assets/img/CITE LOGO.jpg" alt="CITE_LOGO" class="logo">
+    </div>
+    <h2>Registration Form</h2>
+    <form id="registrationForm">
+        <label for="first">First Name</label>
+        <input type="text" id="first" name="first" required>
+
+        <label for="middle">Middle Name</label>
+        <input type="text" id="middle" name="middle">
+
+        <label for="last">Last Name</label>
+        <input type="text" id="last" name="last" required>
+
+        <label for="batch">Batch</label>
+        <select id="batch" name="batch" required>
+            <option value=""> Current Year </option>
+            <option value="BATCH-32">BATCH 32</option>
+            <option value="BATCH-33">BATCH 33</option>
+            <option value="BATCH-34">BATCH 34</option>
+            <option value="BATCH-35">BATCH 325</option>
+        </select>
+
+        <label for="technology">Technology</label>
+        <select id="technology" name="technology" required>
+            <option value=""> Course </option>
+            <option value="Mechanical Engineering">Mechanical Engineering</option>
+            <option value="Electrical Engineering">Electrical Engineering</option>
+            <option value="Electronics Engineering">Electronics Engineering</option>
+            <option value="Computer Engineering">Computer Engineering</option>
+        </select>
+
+        <label for="idNum">ID Number</label>
+        <input type="text" id="idNum" name="idNum" placeholder="YEAR-BATCH-XXX" required>
+
+        <label for="contact">Contact Number</label>
+        <input type="tel" id="contact" name="contact" pattern="[0-9]{11}" placeholder="e.g., (64+) 0912345678" required>
+
+        <button type="submit">Register</button>
+    </form>
+
+</div>
+<script src="assets/java/script.js"></script>
+
+</body>
+</html>
