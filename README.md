@@ -1,7 +1,7 @@
 # REGISTRATION-FORM
 Another web development hellscape
 - version 1.0
-  - Created the repository and necessary
+  - Created the repository
   - added the html, css, and javascript content
   - added images
 
